@@ -144,7 +144,7 @@ function duplicados() {
     while (i <= largo_Nr) {
         while (e <= largo_Nr) {
             if (datos_Nr[i].nombre === datos_Nr[e].nombre && datos_Nr[i].id !== datos_Nr[e].id) {
-                console.log("nuevo largo_Nr " + largo_Nr + " el dato eliminado es: " + datos_Nr[i].nombre + " " +datos_Nr[e-1].nombre);
+                console.log("nuevo largo_Nr " + largo_Nr + " el dato eliminado es: " + datos_Nr[i].nombre + " " +datos_Nr[e].nombre);
                 datos_Nr.splice(i, 1);
             } else {
             }
