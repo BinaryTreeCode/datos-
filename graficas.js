@@ -18,6 +18,7 @@ function Store_Local() {
     localStorage.setItem("X", JSON.stringify(datos_nombre));
     localStorage.setItem("FI", JSON.stringify(datos_repetidos));
     localStorage.setItem("FR", JSON.stringify(datos_porcentuales));
+    window.open("./graficas.html" , '_blank');
 }
 
 
