@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="datos">
+            <samp>ingresa los datos separados por una coma</samp>
+            <textarea name="comentarios" rows="1" cols="25" placeholder="1, 2, 3, 4, 5..." id="datos" 
+            required ></textarea> 
+        </label>
+
+        <label for="btn"> 
+            <samp>enviar datos</samp>
+            <button type="button" id="btn">enviar</button>
+        </label>
+    </form>
+
+        <label for="btn_table">
+            <samp>procesar datos</samp>
+            <!-- que forma es mejor -->
+            <button type="button" id="btn_table" >procesar</button>
+            <!-- <button onclick="myFunction()">Click me</button> -->
+        </label>
+
+    <label for="">
+        <samp>ver grafigas</samp>
+        <button onclick="Store_Local()"><a href="./graficas.html">ver graficas</a></button>
+    </label>
+    <br>
+    <label for="btn_tableG">
+        <samp>imprimir datos en una tabla</samp>
+        <button type="button" id="btn_tableG" >imprimir</button>
+    </label>
+    <div id="tabla"></div>
+    <script src="./graficas.js"></script>
+    <script>
+        vars()
+    </script>
+</body>
+</html>
